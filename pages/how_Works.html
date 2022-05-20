@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>TuMueble</title>
+  </head>
+  <body class="bg-gray-900 container mx-auto pt-8 font-sans	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";">
+    <nav class="flex flex-row justify-between items-center text-white mx-2 ">
+        <h2 class="text-3xl"> 
+            <a href="../index.html">Tu Mueble</a>    
+        </h2>
+        <ul class=" hidden sm:flex flex-row justify-around gap-6">
+          <li class="cursor-pointer"><a href="../index.html">Home</a></li>
+          <li class="cursor-pointer"><a href="">Como Funciona</a></li>
+          <li class="cursor-pointer"><a>Precios</a></li>
+          <li class="cursor-pointer"><a>Contacto</a</li>
+          <li class="cursor-pointer"><a>Sobre nosotros</a></li>
+        </ul>
+        <!-- Menu burger -->
+        <div class="sm:hidden">
+            <ul class=" block burger-click">
+                <div class="p-4 space-y-2 bg-gray-600 rounded shadow">
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                </div>
+                
+            </ul>
+           
+        </div>
+      </nav>
+      <div class="burger-show hidden mt-4"> 
+    <ul  class="text-center text-white">
+        <li class="cursor-pointer bg-gray-700"><a href="../index.html">Home</a></li>
+        <li class="cursor-pointer bg-gray-700"><a href="./pages/how_Works.html">Como Funciona</a></li>
+        <li class="cursor-pointer bg-gray-700"><a>Precios</a></li>
+        <li class="cursor-pointer bg-gray-700"><a>Contacto</a</li>
+        <li class="cursor-pointer bg-gray-700"><a>Sobre nosotros</a></li>
+      </ul>
+    </div>
+    <h2 class="text-white text-5xl text-center mt-6">Pasos</h2>
+     
+     
+    <div class="grid  sm:grid-cols-3 grid-rows-1   justify-items-center mt-16">
+        <div class=" text-center  ">
+            <p class="text-white text-3xl mb-2">1. Haz Click en icono <span class="bg-black px-4 py-2 rounded-xl">AR</span> </p>
+            <img class="contain  w-64 block mx-auto " src="../img/imagen1.png" alt="">
+        </div>
+        <div class="text-center">
+            <p class="text-white text-3xl mb-2"><span class="">2. Expera que carge el modelo 3D</span></p>
+
+            <img class="contain w-64  block mx-auto" src="../img/imagen2.png" alt="">
+
+        </div>
+        <div class="text-center ">
+            <p class="text-white text-3xl mb-2">3. Disfruta de<span class="text-gray-100"> Tu Mueble </span></p>
+
+            <img class="contain w-64  block mx-auto" src="../img/prototipo.png" alt="">
+
+
+        </div>
+
+          
+    </div>
+    
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>TuMueble</title>
+  </head>
+  <body class="bg-gray-900 sm:container sm:mx-auto mx-4 pt-8 font-sans	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";">
+    <nav class="sm:hidden flex flex-row justify-between items-center text-white mx-2  ">
+        <h2 class="text-3xl"> 
+            <a href="../index.html">Tu Mueble</a>    
+        </h2>
+        <ul class=" hidden sm:flex flex-row justify-around gap-6">
+          <li class="cursor-pointer"><a href="../index.html">Home</a></li>
+          <li class="cursor-pointer"><a href="">Como Funciona</a></li>
+          <li class="cursor-pointer"><a href="./pages/precios.html">Precios</a></li>
+          <li class="cursor-pointer"><a>Contacto</a</li>
+          <li class="cursor-pointer"><a>Sobre nosotros</a></li>
+        </ul>
+        <!-- Menu burger -->
+        <div class="sm:hidden">
+            <ul class=" block burger-click">
+                <div class="p-4 space-y-2 bg-gray-600 rounded shadow">
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                    <span class="block w-8 h-0.5 bg-gray-100 animate-pulse"></span>
+                </div>
+                
+            </ul>
+           
+        </div>
+      </nav>
+    <div class="burger-show hidden mt-4"> 
+        <ul  class="text-center text-white">
+        <li class="cursor-pointer bg-gray-700"><a href="../index.html">Home</a></li>
+        <li class="cursor-pointer bg-gray-700"><a href="./pages/how_Works.html">Como Funciona</a></li>
+        <li class="cursor-pointer bg-gray-700"><a  href="./pages/precios.html">Precios</a></li>
+        <li class="cursor-pointer bg-gray-700"><a>Contacto</a</li>
+        <li class="cursor-pointer bg-gray-700"><a>Sobre nosotros</a></li>
+      </ul>
+    </div>
+
+
+
+
+
+    <div class="sm:flex  flex flex-column sm:gap-32 mt-8">
+
+
+
+       
+
+
+        <!-- no responsive -->
+        <aside class="w-3/5  text-white sm:block ">
+            <!-- <nav class="flex flex-row justify-between items-center ">
+              <h2 class="text-3xl">Tu Mueble</h2>
+              <ul class="flex flex-row justify-around gap-6">
+                <li class="cursor-pointer"><a href="./">Home</a></li>
+                <li class="cursor-pointer"><a href="./pages/how_Works.html">Como Funciona</a></li>
+                <li class="cursor-pointer"><a>Precios</a></li>
+                <li class="cursor-pointer"><a>Contacto</a</li>
+                <li class="cursor-pointer"><a>Sobre nosotros</a></li>
+              </ul>
+            </nav> -->
+
+            <nav class="sm:flex flex-row justify-between items-center text-white mx-2 hidden ">
+                <h2 class="text-3xl"> 
+                    <a href="../index.html">Tu Mueble</a>    
+                </h2>
+                <ul class=" hidden sm:flex flex-row justify-around gap-6">
+                  <li class="cursor-pointer"><a href="../index.html">Home</a></li>
+                  <li class="cursor-pointer"><a href="./pages/how_Works.html">Como Funciona</a></li>
+                  <li class="cursor-pointer"><a  href="./pages/precios.html">Precios</a></li>
+                  <li class="cursor-pointer"><a>Contacto</a</li>
+                  <li class="cursor-pointer"><a>Sobre nosotros</a></li>
+                </ul>
+           
+              </nav>
+            <!-- <div class="burger-show hidden mt-4"> 
+                <ul  class="text-center text-white">
+                <li class="cursor-pointer bg-gray-700"><a href="../index.html">Home</a></li>
+                <li class="cursor-pointer bg-gray-700"><a href="./pages/how_Works.html">Como Funciona</a></li>
+                <li class="cursor-pointer bg-gray-700"><a  href="./pages/precios.html">Precios</a></li>
+                <li class="cursor-pointer bg-gray-700"><a>Contacto</a</li>
+                <li class="cursor-pointer bg-gray-700"><a>Sobre nosotros</a></li>
+              </ul>
+            </div> -->
+            <!-- Titulo Encabezado -->
+
+            <div class="sm:mt-64 mt-2 mb-4 flex-column justify-between sm:mx-0 mx-2 ">
+                <h1 class="mb-2 sm:text-5xl text-xl  "> Descubre tu pasion por los muebles </h1>
+                <p class="sm:text-3xl text-gray-300">Te traemos la nueva forma de como comprar muebles</p>
+                <p class="sm:text-3xl text-gray-300">Mas <span class="text-white">facil</span>, <span class="text-white">rapido</span> y <span class="text-white">accesible</span></p>
+
+            </div>
+
+            <button class="mt-2 bg-blue-500  sm:px-10 sm:py-6 px-2 py-4 rounded-xl "> <a class="text-lg" href="./pages/how_Works.html">Descubrelo Aqui </a></button>
+          </aside>
+          <img class="contain sm:w-auto w-1/2 sm:mt-0 mt-12 block mx-auto" src="./img/prototipo.png" alt="">
+    </div>
+    
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
